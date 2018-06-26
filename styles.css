@@ -1,0 +1,91 @@
+
+
+html {
+	font-family: 'Source Code Pro', monospace;
+
+
+}
+
+body {
+	background-image: url(inovation.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+
+p {
+	font-size: 50px;
+	text-align: center;
+	color: #4F4763;
+	padding-top: 500px;
+}
+
+#button {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+
+.btn-lg.round {
+	font-size: 18px;
+  line-height: 1.33;
+	border-radius: 24px;
+}
+
+.btn-warning {
+  color: black;
+  background-color: #E5C100;
+  border-color: #E5C100;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.open .dropdown-toggle.btn-warning {
+  color: black;
+  background-color: #E5C100;
+  border-color: #E5C100;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-warning {
+    background: #E5C100;
+    color: black;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning:active, .open > .dropdown-toggle.btn-warning {
+   background: #E0CD00; 
+}
+.btn-warning:active, .btn-warning.active {
+    background: #E5C100;
+    box-shadow: none;
+}
+
